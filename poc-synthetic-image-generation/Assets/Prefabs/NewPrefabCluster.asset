@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5da7133ccb2066446859e5bf55e9295d, type: 3}
+  m_Name: NewPrefabCluster
+  m_EditorClassIdentifier: 
+  clusterPrefabs:
+    collapsed: 0
+    probabilities:
+    - 1
+    uniform: 1
+    m_Sampler:
+      id: 0
+    m_Categories:
+    - {fileID: 6478334228179602577, guid: 8abac06d4d6e0af45baf8605b815dd8f, type: 3}
+  references:
+    version: 1
+    00000000:
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers, asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
+          maximum: 1

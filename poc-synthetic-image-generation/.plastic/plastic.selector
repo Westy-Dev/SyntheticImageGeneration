@@ -1,0 +1,4 @@
+repository "poc-synthetic-image-generation@luminous_group@cloud"
+  path "/"
+    br "/main"
+    co "/main"
